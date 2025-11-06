@@ -1,0 +1,51 @@
+# @name:    One True Dark
+# @author:  x07a4
+# @path:    ~/.config/micro/colorschemes/one-true-dark.micro
+# @command: set colorscheme one-true-dark
+# @require: 
+#   export MICRO_TRUECOLOR=1 # Enables TrueColor; Otherwise colors will not appear exact
+# @comments:
+#   export EDITOR="micro" # If using micro for general editing (ex: `git commit`, `crontab -e`, etc)
+#   export SUDO_EDITOR="micro" # If using micro for sudo editing (ex: `sudoedit /etc/hosts`)
+#   alias m="micro" # Alias example
+#   alias s="MICRO_TRUECOLOR=1 sudoedit" # Alias example for Sudo
+
+color-link default "#abb2bf,#010101"
+color-link color-column "#282C34"
+color-link line-number "#1b1f29,#010101"
+color-link current-line-number "#abb2bf,#010101"
+color-link cursor-line "#101116"
+color-link statusline "#a9b1d6,#1a1b26"
+color-link tabbar "#d7dae0,#1a1b26"
+color-link divider "#010101,#21252b"
+color-link comment "#5c6370"
+color-link underlined "#abb2bf"
+color-link match-brace "#ffffff"
+color-link constant "#e0af68"
+color-link constant.number "#e0af68"
+color-link constant.string "#9dcd6a"
+color-link constant.string.char "#9dcd6a"
+color-link constant.specialChar "#bb9af7"
+color-link error "#e06c75"
+color-link diff-added "#00AF00"
+color-link diff-modified "#FFAF00"
+color-link diff-deleted "#D70000"
+color-link gutter-error "#e06c75"
+color-link gutter-warning "#d19a66"
+color-link hlsearch "#aaaaaa,#243355"
+color-link identifier "#e06c75"
+color-link identifier.class "#61afef"
+color-link identifier.var "#e06c75"
+color-link indent-char "#515151"
+color-link preproc "#bb9af7"
+color-link special "#c678dd"
+color-link statement "#c678dd"
+color-link symbol "#c678dd"
+color-link symbol.brackets "#abb2bf"
+color-link symbol.operator "#c678dd"
+color-link symbol.tag "#e06c75"
+color-link todo "#9dcd6a"
+color-link type "#56b6c2"
+color-link type.keyword "#c678dd"
+color-link tab-error "#e06c75"
+color-link trailingws "#e06c75"
